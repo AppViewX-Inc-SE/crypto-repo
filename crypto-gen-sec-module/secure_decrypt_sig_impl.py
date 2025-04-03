@@ -17,6 +17,6 @@ print(f"Signature: {signature}")
 is_valid = verify(message, signature, public_key)
 
 if is_valid:
-    print("Signature is valid.")
+    print("Signature is valid .")
 else:
     print("Signature is invalid.")
