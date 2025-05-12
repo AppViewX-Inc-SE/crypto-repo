@@ -13,7 +13,7 @@ public class BouncyCastleCrypto {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Bouncy Castle Cryptographic Operations");
-        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code");
+        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 1");
         rsaEncryptionDecryption();
 
         ecdsaSigningVerification();
