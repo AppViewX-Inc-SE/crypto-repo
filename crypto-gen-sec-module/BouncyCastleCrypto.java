@@ -1,5 +1,8 @@
 import java.security.*;
 import java.security.spec.*;
+
+import javax.crypto.Cipher;
+
 import org.bouncycastle.jcajce.provider.BouncyCastleFipsProvider;
 import org.bouncycastle.pqc.jcajce.interfaces.*;
 import org.bouncycastle.pqc.jcajce.spec.*;
@@ -16,6 +19,7 @@ public class BouncyCastleCrypto {
         System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 2");
         System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 3");
         System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 4");
+        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 5");
         rsaEncryptionDecryption();
 
         ecdsaSigningVerification();
