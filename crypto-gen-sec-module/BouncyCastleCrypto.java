@@ -16,13 +16,7 @@ public class BouncyCastleCrypto {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Bouncy Castle Cryptographic Operations");
-        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 2");
-        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 3");
-        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 4");
-        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 5");
-        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 6");
-        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 7");
-        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 7");
+        System.out.println("ALSAC Demo for PQC");
         rsaEncryptionDecryption();
 
         ecdsaSigningVerification();
