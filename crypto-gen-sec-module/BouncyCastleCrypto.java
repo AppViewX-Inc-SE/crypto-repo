@@ -22,6 +22,7 @@ public class BouncyCastleCrypto {
         System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 5");
         System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 6");
         System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 7");
+        System.out.println("Bouncy Castle Cryptographic Operations - from VS Code 7");
         rsaEncryptionDecryption();
 
         ecdsaSigningVerification();
