@@ -33,6 +33,11 @@ public class BouncyCastleCrypto {
         keyPairGenerator.initialize(2048);
         KeyPair keyPair = keyPairGenerator.generateKeyPair();
 
+        System.out.println("\n--- RSA Encryption and Decryption ---");
+        KeyPairGenerator keyPairGenerator1 = KeyPairGenerator.getInstance("RSA", "BCFIPS");
+        keyPairGenerator1.initialize(1024);
+        KeyPair keyPair1 = keyPairGenerator1.generateKeyPair();
+
         Cipher cipher = Cipher.getInstance("RSA", "BCFIPS");
         cipher.init(Cipher.ENCRYPT_MODE, keyPair.getPublic());
         byte[] plaintext = "Hello, RSA!".getBytes();
