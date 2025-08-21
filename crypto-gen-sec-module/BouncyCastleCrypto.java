@@ -17,6 +17,7 @@ public class BouncyCastleCrypto {
     public static void main(String[] args) throws Exception {
         System.out.println("Bouncy Castle Cryptographic Operations");
         System.out.println("ALSAC Demo for PQC");
+        System.out.println("PQC Demo");
         rsaEncryptionDecryption();
 
         ecdsaSigningVerification();
